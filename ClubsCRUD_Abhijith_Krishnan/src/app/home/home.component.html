@@ -1,0 +1,121 @@
+<nav style="background-color: #33043a" class="navbar navbar-expand-lg">
+  <div class="container-fluid me-auto mb-2 mb-lg-0">
+    <a class="navbar-brand text-white" href="#">
+      <img
+        src="https://th.bing.com/th?id=OIP.aPkjpolkTlBsk1CPbccgDgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+        alt="" width="80" height="50" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      </ul>
+      <div class="d-flex">
+        <button class="btn btn-success" (click)="clickAddClub()" type="button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Register New
+          Club</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<router-outlet/>
+<!-- <ng-container *ngFor="let c of clubs">
+  <div>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="{{c.Logo}}" style="height: 20;width: auto;" alt="Card image cap">
+        <div class="card-body">
+          <tr style="display: block;" (click)="getClubDetail(c)"> 
+            <h5 class="card-title">{{c.ClubName}}</h5>
+          </tr>
+          <p class="card-text">Click here to know more about {{c.ClubName}}</p>
+          <button (click)="editClub(c)" class="btn btn-info" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Edit</button>
+          <button (click)="deleteClub(c)" class="btn btn-danger mx-3">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container> -->
+<div fxLayout="row wrap" fxLayoutGap="16px" fxLayout.xs="column" style="display: flex;height: 100%;">
+  <div fxFlex.gt-xs="1 1 calc(30%-16px)"   *ngFor="let c of clubs">
+    
+    <div class="card mb-3" (click)="getClubDetail(c)">
+      <img class="card-img-right"  src="{{c.Logo}}" style="height: 200px;width: 200px;" alt="Club Logo">
+      <div class="card-body">
+        <tr style="display: block;"> 
+          <h5 class="card-title">{{c.ClubName}}</h5>
+        </tr>
+        <p class="card-text">Click here to know more about {{c.ClubName}}</p>
+        <button (click)="editClub(c)" class="btn btn-info" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Edit</button>
+        <button (click)="deleteClub(c)" class="btn btn-danger mx-3">Delete</button>
+      </div>
+    </div>
+
+
+    
+  </div>
+</div>
+ 
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Club Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Club Name</label>
+            <input type="text" class="form-control" formControlName="ClubName" id="exampleInputEmail1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Club Owner</label>
+            <input type="text" class="form-control" formControlName="ClubOwner" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Home Ground</label>
+            <input type="text" class="form-control" formControlName="HomeGround" id="exampleInputEmail2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Manager Name</label>
+            <input type="text" class="form-control" formControlName="ManagerName" id="exampleInputPassword2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Founding Year</label>
+            <input type="number" class="form-control" formControlName="FoundingYear" id="exampleInputPassword3">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Trophies</label>
+            <input type="number" class="form-control" formControlName="Trophies" id="exampleInputPassword4">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">All-Time Top Scorer</label>
+            <input type="text" class="form-control" formControlName="AllTimeTopScorer" id="exampleInputPassword5">
+          </div>
+        </form>
+      </div>
+
+
+
+      <div class="modal-footer">
+        <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" *ngIf="showAdd" (click)="postClubDetails()" class="btn btn-primary">Register Club</button>
+        <button type="button" *ngIf="showUpdate" (click)="updateClub()" class="btn btn-primary">Update Club</button>
+      </div>
+    </div>
+  </div>
+</div>
+

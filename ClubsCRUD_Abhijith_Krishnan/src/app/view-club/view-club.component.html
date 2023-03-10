@@ -1,0 +1,32 @@
+<script>
+    $(function () {
+        $("#openDialog").on("load", function () {
+            $("#dialog-modal").dialog({
+                height: 140,
+                modal: true
+            });
+            $("#dialog-modal").show();
+            $(reload)
+        });
+    });
+</script>
+
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Club Name</th>
+            <th>Club Owner</th>
+            <th>Club Manager</th>
+            <th>Stadium Name</th>
+            <th>Founding Year</th>
+            <th>Number of Trophies</th>
+            <th>All Time Top Scorer</th>
+        </tr>
+        <tr>
+            <td>{{club.ClubName}}</td>
+            <td>{{club.ClubOwner}}</td>
+            <td>{{club.ManagerName}}</td>
+            <td>{{club.HomeGround}}</td>
+            <td>{{club.FoundingYear}}</td>
+            <td>{{club.Trophies}}</td>
+            <td>{{club.AllTimeTopScorer}}</td>
+    </table>

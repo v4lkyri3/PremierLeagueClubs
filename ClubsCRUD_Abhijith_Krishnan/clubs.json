@@ -1,0 +1,224 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "ClubName": "AFC Bournemouth",
+      "HomeGround": "Vitality Stadium",
+      "ClubOwner": "Black Knight Football Club",
+      "ManagerName": "Jason Tindall",
+      "FoundingYear": 1899,
+      "Trophies": 1,
+      "AllTimeTopScorer": "Josh King",
+      "Logo": "../assets/images/bournemouth.jpeg"
+    },
+    {
+      "ClubName": "Arsenal",
+      "ClubOwner": "Stan Kroenke",
+      "ManagerName": "Mikel Arteta",
+      "HomeGround": "Emirates Stadium",
+      "FoundingYear": 1886,
+      "AllTimeTopScorer": "Thierry Henry",
+      "Trophies": 49,
+      "id": 2,
+      "Logo": "../assets/images/arsenal.jpeg"
+    },
+    {
+      "id": 3,
+      "ClubName": "Aston Villa",
+      "HomeGround": "Villa Park",
+      "ClubOwner": "Nassef Sawiris",
+      "ManagerName": "Dean Smith",
+      "FoundingYear": 1874,
+      "Trophies": 25,
+      "AllTimeTopScorer": "Gabby Agbonlahor",
+      "Logo": "../assets/images/astonvilla.jpeg"
+    },
+    {
+      "id": 4,
+      "ClubName": "Brentford FC",
+      "HomeGround": "Gtech Community Stadium",
+      "ClubOwner": "Mathew Benham",
+      "ManagerName": "Thomas Frank",
+      "FoundingYear": 1889,
+      "Trophies": 1,
+      "AllTimeTopScorer": "Ivan Toney",
+      "Logo": "../assets/images/brentford.jpeg"
+    },
+    {
+      "id": 5,
+      "ClubName": "Brighton & Hove Albion",
+      "HomeGround": "Amex Stadium",
+      "ClubOwner": "Tony Bloom",
+      "ManagerName": "Roberto De Zerbi",
+      "FoundingYear": 1901,
+      "Trophies": 1,
+      "AllTimeTopScorer": "Tommy Cook",
+      "Logo": "../assets/images/brighton.jpeg"
+    },
+    {
+      "ClubName": "Chelsea",
+      "ClubOwner": "Todd Boehly",
+      "ManagerName": "Graham Potter",
+      "HomeGround": "Stamford Bridge",
+      "FoundingYear": 1905,
+      "AllTimeTopScorer": "Frank Lampard",
+      "Trophies": 36,
+      "id": 6,
+      "Logo": "../assets/images/chelsea.jpeg"
+    },
+    {
+      "id": 7,
+      "ClubName": "Crystal Palace",
+      "HomeGround": "Selhurst Park",
+      "ClubOwner": "Steve Parish",
+      "ManagerName": "Patrick Viera",
+      "FoundingYear": 1905,
+      "Trophies": 2,
+      "AllTimeTopScorer": "Peter Simpson",
+      "Logo": "../assets/images/crystalpalace.jpeg"
+    },
+    {
+      "id": 8,
+      "ClubName": "Everton",
+      "HomeGround": "Goodison Park",
+      "ClubOwner": "Bill KenWright CBE",
+      "ManagerName": "Sean Dyche",
+      "FoundingYear": 1878,
+      "Trophies": 25,
+      "AllTimeTopScorer": "Dixie Dean",
+      "Logo": "../assets/images/everton.jpeg"
+    },
+    {
+      "id": 9,
+      "ClubName": "Fulham",
+      "HomeGround": "Craven Cottage",
+      "ClubOwner": "Shahid Khan",
+      "ManagerName": "Marco Silva",
+      "FoundingYear": 1879,
+      "Trophies": 3,
+      "AllTimeTopScorer": "Johnny Haynes",
+      "Logo": "../assets/images/fulham.jpeg"
+    },
+    {
+      "id": 10,
+      "ClubName": "Leeds United",
+      "HomeGround": "Elland Road",
+      "ClubOwner": "Andrea Radrizzani",
+      "ManagerName": "Javi Garcia",
+      "FoundingYear": 1919,
+      "Trophies": 11,
+      "AllTimeTopScorer": "Peter Lorimer",
+      "Logo": "../assets/images/leeds.jpeg"
+    },
+    {
+      "id": 11,
+      "ClubName": "Leicester City",
+      "HomeGround": "King Power Stadium",
+      "ClubOwner": "Aiyawatt Srivaddhanaprabha",
+      "ManagerName": "Brendan Rodgers",
+      "FoundingYear": 1884,
+      "Trophies": 14,
+      "AllTimeTopScorer": "Arthur Chandler",
+      "Logo": "../assets/images/leicester.jpeg"
+    },
+    {
+      "id": 12,
+      "ClubName": "Liverpool",
+      "HomeGround": "Anfield",
+      "ClubOwner": "Fenway Sports Group",
+      "ManagerName": "Jurgen Klopp",
+      "FoundingYear": 1892,
+      "Trophies": 70,
+      "AllTimeTopScorer": "Ian Rush",
+      "Logo": "../assets/images/liverpool.jpeg"
+    },
+    {
+      "id": 13,
+      "ClubName": "Manchester City",
+      "HomeGround": "Etihad",
+      "ClubOwner": "H.E. Khaldoon Al Mubarak ",
+      "ManagerName": "Pep Guardiola",
+      "FoundingYear": 1880,
+      "Trophies": 36,
+      "AllTimeTopScorer": "Sergio Aguero",
+      "Logo": "../assets/images/city.jpeg"
+    },
+    {
+      "id": 14,
+      "ClubName": "Manchester United",
+      "HomeGround": "Old Trafford",
+      "ClubOwner": "Glazers",
+      "ManagerName": "Erik Ten Hag",
+      "FoundingYear": 1878,
+      "Trophies": 70,
+      "AllTimeTopScorer": "Wayne Rooney",
+      "Logo": "../assets/images/united.jpeg"
+    },
+    {
+      "id": 15,
+      "ClubName": "Newcastle United",
+      "HomeGround": "St.James's Park",
+      "ClubOwner": "Yasir O. Al-Rumayyan",
+      "ManagerName": "Eddie Howe",
+      "FoundingYear": 1892,
+      "Trophies": 16,
+      "AllTimeTopScorer": "Alan Shearer",
+      "Logo": "../assets/images/newcastle.jpeg"
+    },
+    {
+      "id": 16,
+      "ClubName": "Nottingham Forest",
+      "HomeGround": "The City Ground",
+      "ClubOwner": "Nicholas Randall",
+      "ManagerName": "Steve Cooper",
+      "FoundingYear": 1865,
+      "Trophies": 14,
+      "AllTimeTopScorer": "Greenville Morris",
+      "Logo": "../assets/images/nottingham.jpeg"
+    },
+    {
+      "id": 17,
+      "ClubName": "Southampton",
+      "HomeGround": "St.Mary's Stadium",
+      "ClubOwner": "Henrik Kraft",
+      "ManagerName": "Rubén Sellés",
+      "FoundingYear": 1885,
+      "Trophies": 2,
+      "AllTimeTopScorer": "Mick Channon",
+      "Logo": "../assets/images/southampton.jpeg"
+    },
+    {
+      "id": 18,
+      "ClubName": "Tottenham Hotspur",
+      "HomeGround": "Tottenham Hotspur Stadium",
+      "ClubOwner": "Daniel Levy",
+      "ManagerName": "Antonio Conte",
+      "FoundingYear": 1882,
+      "Trophies": 26,
+      "AllTimeTopScorer": "Harry Kane",
+      "Logo": "../assets/images/tottenham.jpeg"
+    },
+    {
+      "id": 19,
+      "ClubName": "West Ham United",
+      "HomeGround": "London Stadium",
+      "ClubOwner": "David Sullivan",
+      "ManagerName": "David Moyes",
+      "FoundingYear": 1895,
+      "Trophies": 7,
+      "AllTimeTopScorer": "Paul Goddard",
+      "Logo": "../assets/images/westham.jpeg"
+    },
+    {
+      "id": 20,
+      "ClubName": "Wolverhampton Wanderers",
+      "HomeGround": "Molinuex Stadium",
+      "ClubOwner": "Jeff Shi",
+      "ManagerName": "Julen Lopetegui",
+      "FoundingYear": 1877,
+      "Trophies": 17,
+      "AllTimeTopScorer": "Steve Bull",
+      "Logo": "../assets/images/wolves.jpeg"
+    }
+  ]
+}
